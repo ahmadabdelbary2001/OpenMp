@@ -40,3 +40,11 @@ OpenMP/
 ├── mandelbrot.cpp # Fractal analysis implementation
 └── Makefile # Build configuration
 ```
+
+### 🚀 Compilation & Execution
+```bash
+   make all      # Compile the program
+   make run      # Run the program
+   make clean    # Remove executable and profiling data
+   make profile  # Run profiling (gprof) and save report
+```
