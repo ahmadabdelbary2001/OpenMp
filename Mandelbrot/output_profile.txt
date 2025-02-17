@@ -1,0 +1,28 @@
+./mandelbrot
+Mandelbrot Set Area Approximation using Monte Carlo Method
+Number of points: 100000000
+Maximum iterations: 1000
+
+Sequential Execution:
+  Area: 1.51007
+  Time: 104.81 seconds
+
+Parallel Execution Results:
+Threads: 1
+  Area: 1.51015
+  Time: 104.188 seconds
+  Speedup: 1.00597x
+  Efficiency: 1.00597
+
+Threads: 2
+  Area: 1.50994
+  Time: 59.7064 seconds
+  Speedup: 1.75542x
+  Efficiency: 0.877709
+
+Threads: 4
+  Area: 1.51038
+  Time: 44.0978 seconds
+  Speedup: 2.37675x
+  Efficiency: 0.594188
+

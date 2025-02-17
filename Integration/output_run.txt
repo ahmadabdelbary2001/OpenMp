@@ -1,0 +1,16 @@
+./integration
+Numerical Integration of ln(x)/x from 1 to 10
+Number of intervals: 1000000
+
+Threads: 1
+  Result: 2.65095
+  Calculation time: 0.0130597 seconds
+
+Threads: 2
+  Result: 2.65095
+  Calculation time: 0.00848458 seconds
+
+Threads: 4
+  Result: 2.65095
+  Calculation time: 0.0159011 seconds
+
