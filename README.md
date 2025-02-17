@@ -1,6 +1,5 @@
 # OpenMP Parallel Computing Projects
 
-![OpenMP Logo](https://www.openmp.org/wp-content/uploads/OpenMP_300x150.png)  
 Two parallel computing implementations demonstrating OpenMP capabilities for numerical integration and fractal analysis.
 
 ## Project Overview
@@ -26,9 +25,18 @@ Contains two distinct OpenMP-accelerated programs:
 
 ## Requirements
 
-- OpenMP-compatible compiler (GCC >= 9.0)
-- C++17 standard library
+- OpenMP-compatible compiler (GCC)
+- C++
 - GNU Make
-- (Optional) gprof for profiling
+- gprof
 
 ## Project Structure
+```
+OpenMP/
+├── integration/
+│ ├── integration.cpp # Numerical integration implementation
+│ └── Makefile # Build configuration
+└── mandelbrot/
+├── mandelbrot.cpp # Fractal analysis implementation
+└── Makefile # Build configuration
+```
